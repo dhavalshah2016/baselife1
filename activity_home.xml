@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/blue_fade"
+    tools:context="com.example.baselife.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/baselife_label"
+        android:textColor="@android:color/white"
+        android:id="@+id/tvbaselife"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvbaselife"
+        android:id="@+id/ivbaselife"
+        android:src="@mipmap/screenshot"
+        android:adjustViewBounds="true"
+        android:layout_margin="4dp"
+        android:layout_marginLeft="7dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homescreen_text"
+        android:textColor="@android:color/white"
+        android:layout_margin="4dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/baselinetext"
+        android:layout_below="@id/ivbaselife"
+        android:textSize="@dimen/normal_text_size"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First, lets find your base."
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/findbasetext"
+        android:layout_below="@id/baselinetext"
+        android:textSize="@dimen/normal_text_size"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find using phone's location"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/findlocationtext"
+        android:layout_below="@id/findbasetext"
+        android:textSize="@dimen/home_screen_find_text_size"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find manually"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/findbasetextmanually"
+        android:layout_below="@id/findlocationtext"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

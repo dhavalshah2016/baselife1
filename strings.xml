@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BaseLife</string>
+    <string name="activity_login_text_forgot_password">Forgot Password</string>
+    <string name="activity_login_text_create_an_account">Create an account</string>
+    <string name="activity_login_text_skip_for_now">Skip for now</string>
+    <string name="username_hint"><font size="14">username</font></string>
+    <string name="password_hint"><font size="13">password</font></string>
+    <string name="emailaddress_hint"><font size="13">email address</font></string>
+    <string name="rank_hint"><font size="13">rank</font></string>
+    <string name="firstname_hint"><font size="13">first name</font></string>
+    <string name="lastname_hint"><font size="13">last name</font></string>
+    <string name="choosephoto_label"><font size="13">Choose a photo(optional)</font></string>
+    <string name="activity_login_text">Login</string>
+     <string name="agreetext"><font color='#000000'>By creating an account,you are agreeing to the baselife</font>
+    <font color="#ffffff">Terms of Use(EULA)</font></string>
+    <string name="creategrouptext">Select the unit this group is subordinate to (Example:if you are creating a company ,select the batalian.)if the immidiate group does not exist,create it first. Every group must have a parent group.</string>
+</resources>

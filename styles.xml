@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+   <!-- <style name="myBackgroundStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#b2ebff</item>
+        <item name="android:topBright">#b2ebff</item>
+        <item name="android:topDark">#b2ebff</item>
+        <item name="android:bottomBright">#b2ebff</item>
+    <item name="android:bottomDark">#b2ebff</item>
+    <item name="android:bottomMedium">#b2ebff</item>
+    <item name="android:centerBright">#b2ebff</item>
+    <item name="android:centerDark">#b2ebff</item>
+    <item name="android:centerMedium">#b2ebff</item>
+    <item name="android:fullBright">#b2ebff</item>
+    <item name="android:fullDark">#b2ebff</item>
+    </style>-->
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#b2ebff</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
